@@ -1,0 +1,499 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669876106712247, "dur":1068, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876106713322, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669876106713369, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669876106713383, "dur":564, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669876106713990, "dur":548, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876106714538, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551173, "dur":277, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551450, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551496, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551503, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551516, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551518, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551537, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551545, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551552, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551554, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551560, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551561, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551567, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551569, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551575, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551577, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551582, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551583, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551589, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551591, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551596, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551598, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551604, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551605, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551612, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551625, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108551629, "dur":2753, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669876106714183, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669876106714547, "dur":3265, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669876106717827, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669876106717830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669876106786232, "dur":765, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669876106787001, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669876106787025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669876106787540, "dur":33682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669876106821226, "dur":77527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669876106898759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669876106898769, "dur":10628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669876106909421, "dur":1300486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669876108209909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669876108209914, "dur":341210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669876108551141, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1669876108551143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876106714222, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876106714555, "dur":3264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876106717827, "dur":38240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1669876106756073, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107305536, "dur":120036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1669876107425591, "dur":27983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107453577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107453581, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107457558, "dur":51009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107508605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107508610, "dur":12786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107521416, "dur":20279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107541701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107541709, "dur":17358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107559083, "dur":15263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107574354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107574364, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107576303, "dur":18242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107594549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107594554, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107597542, "dur":30461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107628009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107628017, "dur":24137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107652178, "dur":19330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107671542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107671546, "dur":27857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107699428, "dur":19833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107719265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107719269, "dur":20162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107739449, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107740229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107740236, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107743028, "dur":49131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107792165, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107792173, "dur":10508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107802697, "dur":79528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107882233, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107882243, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107883917, "dur":95429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107979352, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876107979361, "dur":17738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669876107997126, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1669876107997261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876108004751, "dur":107890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1669876108112680, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1669876108112800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669876108112805, "dur":96675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1669876108209500, "dur":341679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876106714207, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876106714552, "dur":3269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876106717827, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669876106718355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876106908986, "dur":285596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669876107194619, "dur":43333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107237958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107263538, "dur":167024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107430725, "dur":22128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107452858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107452864, "dur":5083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107458025, "dur":29195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107487227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107487235, "dur":12565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107499819, "dur":90699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107590526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107590537, "dur":7440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107597997, "dur":77104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107675107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107675115, "dur":23304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107698434, "dur":17961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107716402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107716411, "dur":20206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107736633, "dur":44954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107781593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107781601, "dur":20945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107802566, "dur":26795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107829367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876107829375, "dur":28973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876107858377, "dur":162416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876108020795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669876108020800, "dur":109503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669876108130328, "dur":420838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876106714242, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876106714558, "dur":3270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876106717828, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669876106718277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876106821348, "dur":78628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669876106900008, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1669876106900063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876106900068, "dur":251037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1669876107151127, "dur":349422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669876107500552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876107500559, "dur":20580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669876107521156, "dur":27735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107548897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876107548932, "dur":9693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107558646, "dur":37420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107596095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876107596100, "dur":5116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107601234, "dur":22422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107623663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876107623672, "dur":28473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107652169, "dur":19159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107671335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876107671344, "dur":26547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107697909, "dur":230969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107928886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876107928895, "dur":30222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876107959142, "dur":140583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876108099731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669876108099738, "dur":65209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669876108164966, "dur":386215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876106714277, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876106714561, "dur":3265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876106717832, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669876106718007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876106801491, "dur":393121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669876107194635, "dur":17944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107212586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107297222, "dur":128388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107425647, "dur":20474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107446128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107446137, "dur":15749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107461910, "dur":41269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107503185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107503193, "dur":11386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107514598, "dur":16821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107531426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107531435, "dur":25138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107556599, "dur":17979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107574581, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107574622, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107577266, "dur":41196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107618468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107618476, "dur":27374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107645868, "dur":20022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107665896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107665905, "dur":25433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107691355, "dur":116043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107807405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107807456, "dur":4902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107812376, "dur":33981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107846362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107846370, "dur":12984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107859377, "dur":37188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107896571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876107896579, "dur":6285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876107902901, "dur":210183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876108113088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669876108113093, "dur":163029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669876108276143, "dur":275030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876106714306, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876106714566, "dur":3267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876106717834, "dur":72260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669876106790097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876106790142, "dur":31231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669876106821390, "dur":8915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669876106830312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876106830351, "dur":78986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669876106909354, "dur":163460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107072820, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107129047, "dur":294113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107423189, "dur":32666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107455861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107455867, "dur":7815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107463703, "dur":18387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107482097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107482106, "dur":15223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107497372, "dur":34860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107532238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107532246, "dur":25474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107557738, "dur":33444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107591187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107591192, "dur":5823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107597040, "dur":21364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107618408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107618415, "dur":25126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107643558, "dur":24087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107667651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107667660, "dur":26793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107694472, "dur":30173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107724653, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107724665, "dur":11982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107736660, "dur":16548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107753215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107753224, "dur":2667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107755910, "dur":79306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107835221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107835229, "dur":25572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107860823, "dur":108663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107969492, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107969501, "dur":27618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669876107997148, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669876107997168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876107997187, "dur":21379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669876108018585, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669876108018600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876108018603, "dur":94030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669876108112654, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1669876108112715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669876108112721, "dur":87693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1669876108200435, "dur":350748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876106714339, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876106714572, "dur":3252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876106717825, "dur":72173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669876106790003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876106790027, "dur":31428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669876106821471, "dur":9121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669876106830596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876106830602, "dur":363950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669876107194580, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1669876107194632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107198779, "dur":242763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1669876107441565, "dur":18482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107460054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107460062, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107463624, "dur":114834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107578464, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107578474, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107581856, "dur":30808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107612671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107612715, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107617671, "dur":21005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107638679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107638683, "dur":14569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107653269, "dur":31346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107684621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107684627, "dur":14950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107699595, "dur":30532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107730133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107730142, "dur":10262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107740427, "dur":25962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107766393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107766399, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107768461, "dur":64748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107833216, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107833225, "dur":27062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107860303, "dur":106389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876107966735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876107966744, "dur":45059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669876108011828, "dur":4603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1669876108016437, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876108016444, "dur":96184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1669876108112650, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669876108112718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669876108112722, "dur":87699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669876108200441, "dur":350744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876106714365, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876106714577, "dur":3253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876106717830, "dur":71967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669876106789803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876106801112, "dur":20339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669876106821470, "dur":77282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669876106898758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876106898768, "dur":10426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669876106909215, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1669876106909249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876106909255, "dur":291650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1669876107200928, "dur":19895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107220829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107263533, "dur":164903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107428460, "dur":97239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107525706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107525714, "dur":28953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107554684, "dur":21504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107576195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107576244, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107578026, "dur":32841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107610875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107610884, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107615825, "dur":19730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107635560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107635567, "dur":16616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107652208, "dur":28323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107680540, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107680550, "dur":17335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107697908, "dur":67225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107765139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107765147, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107767800, "dur":70285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107838091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876107838099, "dur":20596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876107858712, "dur":167186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876108025904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669876108025913, "dur":174513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669876108200443, "dur":350750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876106714396, "dur":184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876106714580, "dur":3242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876106717827, "dur":18540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1669876106736372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107194490, "dur":105906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1669876107300417, "dur":25003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107325426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107327339, "dur":101104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107428466, "dur":19995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107448468, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107448476, "dur":9102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107457593, "dur":56823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107514424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107514431, "dur":6568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107521014, "dur":27878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107548897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107548932, "dur":9169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107558123, "dur":20616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107578743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107578748, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107580333, "dur":20616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107600954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107600961, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107603961, "dur":17118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107621089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107621099, "dur":29959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107651077, "dur":79432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107730512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107730517, "dur":11499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107742032, "dur":17043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107759081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107759090, "dur":6391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107765500, "dur":126552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107892059, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107892069, "dur":10265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107902352, "dur":32872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107935231, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107935240, "dur":26495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107961755, "dur":25265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/GameAssembly.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107987028, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107987039, "dur":11390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/GameAssembly.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669876107998446, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1669876107998466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669876107998470, "dur":278093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1669876108276576, "dur":274598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876106714418, "dur":166, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876106714584, "dur":3248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876106717832, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669876106718400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876106909556, "dur":282164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669876107191740, "dur":24480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669876107216225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107216231, "dur":206945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669876107423363, "dur":19424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107442794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107442803, "dur":14348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107457169, "dur":18476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107475653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107475662, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107476978, "dur":31038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107508022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107508032, "dur":12641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107520695, "dur":38373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107559072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107559079, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107560557, "dur":43429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107603993, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107604062, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107607335, "dur":40684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107648025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107648033, "dur":5214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107653262, "dur":21768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107675038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107675049, "dur":24348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107699417, "dur":35377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107734799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107734804, "dur":7229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107742057, "dur":87413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107829474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876107829479, "dur":29259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876107858764, "dur":142698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876108001466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669876108001472, "dur":146362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669876108147851, "dur":403317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876106714446, "dur":142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876106714588, "dur":3235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876106717826, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1669876106717881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876106788310, "dur":32392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1669876106820724, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1669876106820779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876106839879, "dur":69453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1669876106909351, "dur":442937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107352296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107352330, "dur":80779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107433131, "dur":18238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107451415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107451423, "dur":6865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107458305, "dur":31065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107489376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107489385, "dur":11197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107500605, "dur":32741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107533352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107533358, "dur":26304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107559686, "dur":34515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107594206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107594213, "dur":5774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107600007, "dur":22018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107622030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107622038, "dur":30136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107652193, "dur":36679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107688878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107688885, "dur":11567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107700468, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107701271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107701279, "dur":35375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107736667, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107737503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107737509, "dur":5121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107742644, "dur":209145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876107951795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876107951804, "dur":59928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669876108011758, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1669876108011918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876108011921, "dur":93640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1669876108105583, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1669876108105600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669876108105605, "dur":59327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1669876108164951, "dur":386235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876106714471, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876106714591, "dur":3245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876106717836, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1669876106718421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107129092, "dur":294069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1669876107423189, "dur":32481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107455676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107455684, "dur":7173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107462874, "dur":121697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107584579, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107584588, "dur":16841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107601451, "dur":22257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107623711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107623717, "dur":28446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107652181, "dur":22919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107675107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107675115, "dur":22762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107697901, "dur":21216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107719124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107719133, "dur":17529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107736682, "dur":22403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107759087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107759091, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107760974, "dur":131356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107892333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107892338, "dur":8320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107900676, "dur":89533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876107990219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876107990228, "dur":21500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669876108011748, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1669876108011791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669876108011796, "dur":118487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/TestingArcade/Crashteroids by Paolo Schaubert_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1669876108130308, "dur":420862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669876108557173, "dur":1679, "ph":"X", "name": "ProfilerWriteOutput" }
+,
